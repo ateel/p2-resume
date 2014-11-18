@@ -2,8 +2,9 @@
 body {
 background: url(../img/bg.png);
 font-family: 'Droid Serif', serif;
-font-size: 16px;
+font-size: 14px;
 }
+
 h1 {
 font-size: 40px;
 background: #98002F;
@@ -14,11 +15,28 @@ margin-top: 0px;
 font-family: 'Oswald', sans-serif;
 }
 
+header {
+background: #98002F;
+}
+
 h2 {
 font-family: 'Oswald', sans-serif;
 font-size: 25px;
 border-bottom: 3px solid #98002F;
 }
+
+h3 {
+	font-size: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+
+}
+h4 {
+	margin-top: 0px;
+	margin-bottom: 3px;
+	font-size: 14px;
+}
+
 
 div {
 	margin-top: -60px;	x 
@@ -27,6 +45,18 @@ div {
 li {
 	list-style: none;
 }
+
+nav li {
+	float: right;
+	list-style: none;
+	margin: 0 10px 0 10px;
+}
+nav li img {
+	height: 20px;
+	width: 20px;
+}
+
+
 
 /* Show Grid */
 .showgrid {
